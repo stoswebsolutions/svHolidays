@@ -1,0 +1,684 @@
+/* *{
+    box-sizing: border-box;
+    overflow: hidden;
+} */
+.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+.navbar-nav  .a{
+align-items: center;
+justify-content: center;
+}
+.nav-item .nav-link{
+    font-weight: bold;
+    margin-right: 50px;
+
+}
+.desert{
+margin-right: 50px;
+}
+.carousel-caption h1{
+    font-weight: 700;
+    font-size: 50px
+}
+
+/* Increase the size of the button */
+.carousel-caption button {
+    font-size: 1.2rem; /* Adjust as needed */
+    padding: 10px 20px;
+    border: none;
+    background-color:#A15D21;
+    color: white;
+    border-radius: 5px;
+}
+
+.carousel-inner img {
+    object-fit: cover; /* This ensures the image covers the container */
+    height: 500px; /* Sets a default height for laptop screens */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 300px; /* Adjust height for mobile */
+    }
+
+    .carousel-caption {
+        bottom: 20px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.1rem; /* Smaller font size for mobile */
+    }
+
+    .carousel-caption h2 {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+
+    .carousel-caption button {
+        font-size: 1rem;
+    }
+}
+.trending h3{
+  margin-top: 20px;
+  /* margin-left: 100px; */
+}
+.underline h3{
+    text-decoration: underline;
+    color: #000;
+}
+.custom-card-bg {
+    background-color:#A15D21;
+    
+}
+.icon-container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center the items vertically */
+    margin-left: 5px; /* Space between hr and icons */
+}
+.hrheight{
+    width: 50%;
+}
+.header {
+    background: url('assets/desert1.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+/* Card styling */
+.card {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background for cards */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-custom {
+    color: white;
+    font-weight: bold;
+    background-color: #B8740E;
+    border-radius: 8px;
+    border: 2px solid white,
+    
+    
+
+   
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+    }
+}
+.card-title {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #D2691E; /* Brown color */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+/* .custom-btn {
+    background-color: #fff;
+    color: #D2691E;
+    border: 2px solid white;
+}
+
+.custom-btn:hover {
+    background-color: #D2691E;
+    color: white;
+} */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .row {
+        text-align: center;
+    }
+}
+.image{
+    background-image:url(assets/desert1.jpg) ;
+}
+.magical{
+    font-size: 20px;
+    padding: 7px;
+}
+.para .padding{
+   margin-top: 120px;
+}
+.explore h1{
+color: white;
+font-weight: 600;
+font-size: 50px;
+text-align: center;
+
+}
+.space{
+   height: 20px;
+   color: white;
+  
+
+}
+.explore {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    text-align: center; /* This aligns text */
+    margin: 0 auto;
+    padding: 20px;
+    color: #ffffff;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+.icon {
+    text-align: center;
+    font-size: 24px;
+    color: #ffa500;
+}
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.explore hr{
+    width: 10%;
+   
+}
+.hr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.hr-line {
+    width: 10%;
+    height: 2px;
+    background-color: orange;
+    margin: 0 10px;
+}
+.explore div .card{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* CSS for decreasing height of the last three cards */
+.small-card {
+ 
+    height: 250px; /* Adjust this value to the desired height */
+    overflow: hidden;
+    color: #D2691E;
+    margin-right: 20px; 
+  
+  }
+  
+  /* Ensure the image inside the card also adjusts to the new height */
+  .small-card .card-img-top {
+    height: 150px; /* Adjust this as per your preference */
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 10px;
+     /* Make sure the image covers the area without distorting */
+  }
+  
+  /* Restrict the card body height */
+  .small-card .card-body {
+    height: 120px; /* Adjust to control text height */
+    overflow: hidden;
+    display: flex
+    
+  }
+  
+  /* Optional adjustments for the text size */
+  .small-card .card-title {
+    font-size: 1rem; /* Adjust the font size if necessary */
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .small-card .card-text {
+    font-size: 0.9rem; /* Reduce the font size to fit the smaller card */
+    white-space: nowrap; /* Keep the text on one line */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  }
+  .card-radius .small-card{
+    border-radius: 30px;
+    justify-content: center;
+    background-color: #A15D21;
+  }
+  
+  .card-height .card-radius{
+justify-content: center;
+color: #D2691E;
+margin-left: 50px;
+
+  }
+ 
+ .second-container{
+    height: 250px;
+    overflow: hidden;
+    color: #A15D21;
+    margin-right: 20px; 
+   
+ }
+ .second-container .card-img-top{
+    height: 150px; /* Adjust this as per your preference */
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 10px;
+ }
+ .second-container.card-body {
+    height: 120px; /* Adjust to control text height */
+    overflow: hidden;
+    
+   
+    
+  }
+  .second-container .card-title {
+    font-size: 1rem; /* Adjust the font size if necessary */
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .second-container .card-text {
+    font-size: 0.9rem; /* Reduce the font size to fit the smaller card */
+    white-space: nowrap; /* Keep the text on one line */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  }
+  .second-radius .second-container{
+    border-radius: 30px;
+    justify-content: center;
+    background-color: #A15D21;
+  }
+  
+  .second-height .second-radius{
+justify-content: center;
+color: #D2691E;
+margin-left: 50px;
+
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ /* .full-background {
+    background-image: url('assets/desertsafari.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+  height: 140vh; 
+    position: relative; 
+} */
+.bgimage{
+    background: url('assets/desert1.jpg') no-repeat center center/cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.overlay h1{
+  
+    font-weight: 600;
+    font-size: 60px;
+  color: white;
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+.bustempo {
+gap: 50px;
+
+
+}
+.bustempo .card{
+   
+        margin: 10px; /* Adds space around each card */
+        width: 20rem; /* Increased width of the card */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a modern look */
+        border-radius: 10px; /* Optional: Slightly rounds the card corners */
+    
+}
+
+/* @media (max-width: 768px) {
+    .full-background {
+        height: 50vh; 
+    }
+
+    .overlay h1 {
+        font-size: 2rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay h1 {
+        font-size: 1.5rem; 
+    }
+} */
+.full-background p{
+color: white;
+text-align: center;
+
+font-family: Arial, sans-serif;
+}
+.full-background .card{
+    display: flex
+}
+.morebutton{
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #AD6C0E;
+ color: white;
+    font-weight: bold;
+}
+.package-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.package-details span {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.package-details i {
+    margin-right: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0d080;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+}
+.container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    margin-bottom: 30px;
+    color: white;
+}
+.fleet-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.vehicle-card {
+    background-color:#fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+    width: 250px;
+}
+.vehicle-image {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+.comfort-level {
+    font-size: 1.2em;
+    color: #ffd700;
+}
+.vehicle-card p{
+    color: #000;
+    font-weight: bold;
+}
+.book-now {
+    background-color: #AD6C0E;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.book-now:hover {
+    background-color: #ffcc00;
+}
+@media (max-width: 1200px) {
+    .fleet-row {
+        justify-content: flex-start;
+    }
+}
+.para p{
+    color: #000;
+}
+.description {
+    /* max-width: 900px; */
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.6;
+}
+a {
+    color: #4da6ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.full-background .camp{
+    background-color: #A15D21; 
+    border-radius: 20px;
+}
+.morebuttonss{
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+   background-color: white;
+ color: #000;
+    font-weight: bold;
+}
+iframe {
+    width: 90%;
+    height: 480px; /* Make the iframe fill its container */
+    border: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    margin-bottom: 10px;
+}
+.form-container {
+    width: 80%;
+    padding: 50px;
+    background-color: #A15D21; 
+    height: 100%; /* Make the form container full height */
+}
+
+
+
+
+
+  
+  footer {
+    background-color: #a65c2d;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    gap: 20px;
+  }
+  
+  .footer-logo {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-logo p {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .footer-contact, .footer-address, .footer-activities {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-contact h3, .footer-address h3, .footer-activities h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .footer-contact a, .footer-address a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .footer-activities ul {
+    list-style: none;
+  }
+  
+  .footer-activities ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-activities ul li a {
+    color: #2874F0;
+    text-decoration: none;
+  }
+  
+  .footer-activities ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex: 1;
+  }
+  
+  .footer-social a img {
+    width: 40px;
+  }
+  
+  .footer-bottom {
+    background-color: #8a491f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+  }
+  
+  .footer-bottom a {
+    color: #2874F0;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 900px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+ 
+
+
+
